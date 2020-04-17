@@ -65,7 +65,6 @@ int wmain(int argc, wchar_t *wargv[]) {
 #else
 // UNIX
 int main(int argc, char *argv[]) {
-  cout << "Node Program Started" << endl;
   return node::Start(argc, argv);
 }
 #endif
